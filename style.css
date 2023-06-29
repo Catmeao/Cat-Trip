@@ -1,0 +1,74 @@
+img {
+	width: 500px;
+}
+#title {
+	color: red
+}
+.subtitle{
+	color: blue
+}
+#banner{
+	width: 100%;
+	position: relative;
+}
+#bannerDesc{
+	width: 45%;
+	height: 30vh;
+	padding: 3%;
+	text-align: justify;
+	border-radius: 20px;
+	position: absolute;
+	top: 35%;
+	left: 24%;
+}
+#bannerDesc > p{
+	font-size: 22px;
+	line-height: 25px;
+	font-weight: 200;
+	color: #f7c04a;
+	text-shadow:none;
+}
+#bannerDesc > h3{
+	font-size: 32px;
+	line-height: 39px;
+	font-weight: 500;
+	color: #f86f03;
+	text-shadow:inherit;
+}
+#bannerDesc > h2{
+	font-size: 48px;
+	line-height: 57px
+	font-weight: 700;
+	color: #acbcff;
+	text-shadow:unset; 
+}
+#bannerDesc > h4{
+	font-size: 27px;
+	line-height: 32px;
+	font-weight: 400;
+	color: #00ff;
+	text-shadow:currentColor;
+}
+#bannerDesc > h1{
+	font-size: 60px;
+	line-height: 71px;
+	font-weight: 900;
+	color: #98eecc; 
+	text-shadow:transparent;
+}
+.post{
+	width: 200;
+	height: 294;
+	object-fit: cover;
+	border-radius: 20px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+#top{
+	display: flex;
+}
+#bannerDesc{
+	position: absolute;
+}
